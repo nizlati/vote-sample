@@ -1,0 +1,12 @@
+apiVersion: v1
+entries:
+  azure-vote:
+  - apiVersion: v1
+    created: 2020-02-02T19:14:47.7298299-08:00
+    description: A Helm chart for Kubernetes
+    digest: 12f8d6047b51bdccec7b4b955cd69d1c9006b66eb64d3bf4c0c47ec01fce80eb
+    name: azure-vote
+    urls:
+    - https://nizlati.github.io/shiny-computing-machine/azure-vote-0.1.0.tgz
+    version: 0.1.0
+generated: 2020-02-02T19:14:47.7268641-08:00

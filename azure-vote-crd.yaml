@@ -1,0 +1,17 @@
+---
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: azurevote1
+  namespace: azurevotens
+  annotations:
+    flux.weave.works/automated: "true"
+spec:
+  releaseName: azurevote2
+  chart:
+    git: git://github.com/nizlati/shiny-computing-machine
+    ref: master
+    path: azure-vote
+  values:
+    title: "Azure Vote App - Winter Version"
+
